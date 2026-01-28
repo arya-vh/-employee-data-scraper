@@ -27,6 +27,6 @@ If the API returns a non-200 status code, the scraper should log the error with 
 The scraper should handle any timeout errors or failed connections gracefully and retry the request a limited number of times before logging a failure.
 
 COMMANDS TO RUN CODE
-streamlit run scraper.py -- --ui
-py -m pytest test_scraper.py -v     
-python scraper.py                                                          
+streamlit run scraper.py -- --ui (DASHBOARD)
+py -m pytest test_scraper.py -v    (TESTING) 
+python scraper.py          (BACKEND)                                                
